@@ -2,8 +2,11 @@
   "manifest_version": 2,
 
   "name": "gh-burns",
-  "description": "burndownchart for github project.",
-  "version": "0.0.1",
+  "description": "burndown chart for github project.",
+  "version": "0.0.2",
+
+  "author": "yatemmma",
+  "homepage_url": "https://github.com/yatemmma/gh-burns",
 
   "content_scripts": [
     {
@@ -16,8 +19,14 @@
     "scripts": ["background.js"]
   },
 
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icon16.png",
     "default_popup": "popup.html",
     "default_title": "gh-burns"
   },
@@ -27,3 +36,4 @@
     "activeTab"
   ]
 }
+// icon from "https://www.flaticon.com/free-icon/fire_24143"

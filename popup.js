@@ -52,5 +52,5 @@ function showPlot(points) {
     type: 'scatter'
   }
 
-  Plotly.newPlot('myDiv', [ideal, real, additional])
+  Plotly.newPlot('plot-area', [ideal, real, additional])
 }
